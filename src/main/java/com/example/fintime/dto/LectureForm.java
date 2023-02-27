@@ -2,6 +2,7 @@ package com.example.fintime.dto;
 
 import com.example.fintime.entity.Lecture;
 
+// Form에서 입력 받음
 public class LectureForm {
     private String title;
     private String startTime;

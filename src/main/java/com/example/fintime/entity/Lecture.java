@@ -5,6 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+// lecture 테이블과 매핑된 Entity
 @Entity
 @Table(name = "lecture")
 public class Lecture {
@@ -25,4 +26,7 @@ public class Lecture {
         this.location = location;
     }
 
+    public Lecture() {
+
+    }
 }
