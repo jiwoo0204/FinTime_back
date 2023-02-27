@@ -5,11 +5,11 @@ import com.example.fintime.entity.Lecture;
 // Form에서 입력 받음
 public class LectureForm {
     private String title;
-    private String startTime;
-    private String endTime;
+    private int startTime;
+    private int endTime;
     private String location;
 
-    public LectureForm(String title, String startTime, String endTime, String location) {
+    public LectureForm(String title, int startTime, int endTime, String location) {
         this.title = title;
         this.startTime = startTime;
         this.endTime = endTime;

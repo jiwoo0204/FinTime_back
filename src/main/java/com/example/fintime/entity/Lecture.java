@@ -14,11 +14,11 @@ public class Lecture {
     private Long id;
 
     private String title;
-    private String startTime;
-    private String endTime;
+    private int startTime;
+    private int endTime;
     private String location;
 
-    public Lecture(Long id, String title, String startTime, String endTime, String location) {
+    public Lecture(Long id, String title, int startTime, int endTime, String location) {
         this.id = id;
         this.title = title;
         this.startTime = startTime;
