@@ -4,8 +4,15 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.stereotype.Service;
 
 // lecture 테이블과 매핑된 Entity
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name = "lecture")
 public class Lecture {
@@ -26,7 +33,4 @@ public class Lecture {
         this.location = location;
     }
 
-    public Lecture() {
-
-    }
 }

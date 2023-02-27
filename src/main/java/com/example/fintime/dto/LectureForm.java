@@ -17,6 +17,11 @@ public class LectureForm {
     }
 
     public Lecture toEntity() {
-        return new Lecture(null, title, startTime, endTime, location);
+        Lecture lecture = new Lecture();
+        lecture.setTitle(title);
+        lecture.setStartTime(startTime);
+        lecture.setEndTime(endTime);
+        lecture.setLocation(location);
+        return lecture;
     }
 }
